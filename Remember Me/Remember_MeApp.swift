@@ -1,9 +1,17 @@
+//
+//  Remember_MeApp.swift
+//  Remember Me
+//
+//  Created by Sean Sullivan on 3/4/25.
+//
 import SwiftUI
 
 @main
-struct ReminderManagerApp: App {
+struct RememberMeApp: App {
     @StateObject private var themeManager = ThemeManager()
     @StateObject private var reminderStore = ReminderStore()
+    
+    @State private var statusBar: StatusBarController?
     
     init() {
         // Request notification permissions
@@ -16,8 +24,11 @@ struct ReminderManagerApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(themeManager)
-                            .environmentObject(reminderStore)
-                            .accentColor(Color("AccentColor"))
+                .environmentObject(reminderStore)
+                .accentColor(Color("AccentColor"))
+                .onAppear {
+                    setupStatusBar()
+                }
         }
         .windowStyle(HiddenTitleBarWindowStyle())
         .commands {
@@ -31,13 +42,18 @@ struct ReminderManagerApp: App {
                 }
             }
         }
-        
-        // Add a MenuBarExtra scene
-       // MenuBarExtra("Reminders", systemImage: "bell.fill") {
-        MenuBarExtra("Reminders", image: "menu-bar-icon") {
-            MenuBarView(reminderStore: reminderStore)
+    }
+    
+    func setupStatusBar() {
+        let popover = NSPopover()
+        popover.contentSize = NSSize(width: 300, height: 400)
+        popover.behavior = .transient
+        popover.contentViewController = NSHostingController(
+            rootView: StatusBarView(reminderStore: reminderStore)
+                .environmentObject(themeManager)
                 .accentColor(Color("AccentColor"))
-        }
-        .menuBarExtraStyle(.window)
+        )
+        
+        statusBar = StatusBarController(popover: popover)
     }
 }
