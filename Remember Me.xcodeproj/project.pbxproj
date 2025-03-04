@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ABCA78BB2D77613300E5F714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCA78A12D77613200E5F714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCA78A82D77613200E5F714;
+			remoteInfo = "Remember Me";
+		};
+		ABCA78C52D77613300E5F714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCA78A12D77613200E5F714 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCA78A82D77613200E5F714;
+			remoteInfo = "Remember Me";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABCA78A92D77613200E5F714 /* Remember Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remember Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCA78BA2D77613300E5F714 /* Remember MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remember MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCA78C42D77613300E5F714 /* Remember MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remember MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ABCA78AB2D77613200E5F714 /* Remember Me */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Remember Me";
+			sourceTree = "<group>";
+		};
+		ABCA78BD2D77613300E5F714 /* Remember MeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Remember MeTests";
+			sourceTree = "<group>";
+		};
+		ABCA78C72D77613300E5F714 /* Remember MeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Remember MeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCA78A62D77613200E5F714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA78B72D77613300E5F714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA78C12D77613300E5F714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCA78A02D77613200E5F714 = {
+			isa = PBXGroup;
+			children = (
+				ABCA78AB2D77613200E5F714 /* Remember Me */,
+				ABCA78BD2D77613300E5F714 /* Remember MeTests */,
+				ABCA78C72D77613300E5F714 /* Remember MeUITests */,
+				ABCA78AA2D77613200E5F714 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCA78AA2D77613200E5F714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA78A92D77613200E5F714 /* Remember Me.app */,
+				ABCA78BA2D77613300E5F714 /* Remember MeTests.xctest */,
+				ABCA78C42D77613300E5F714 /* Remember MeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCA78A82D77613200E5F714 /* Remember Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCA78CE2D77613300E5F714 /* Build configuration list for PBXNativeTarget "Remember Me" */;
+			buildPhases = (
+				ABCA78A52D77613200E5F714 /* Sources */,
+				ABCA78A62D77613200E5F714 /* Frameworks */,
+				ABCA78A72D77613200E5F714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ABCA78AB2D77613200E5F714 /* Remember Me */,
+			);
+			name = "Remember Me";
+			packageProductDependencies = (
+			);
+			productName = "Remember Me";
+			productReference = ABCA78A92D77613200E5F714 /* Remember Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABCA78B92D77613300E5F714 /* Remember MeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCA78D12D77613300E5F714 /* Build configuration list for PBXNativeTarget "Remember MeTests" */;
+			buildPhases = (
+				ABCA78B62D77613300E5F714 /* Sources */,
+				ABCA78B72D77613300E5F714 /* Frameworks */,
+				ABCA78B82D77613300E5F714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCA78BC2D77613300E5F714 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABCA78BD2D77613300E5F714 /* Remember MeTests */,
+			);
+			name = "Remember MeTests";
+			packageProductDependencies = (
+			);
+			productName = "Remember MeTests";
+			productReference = ABCA78BA2D77613300E5F714 /* Remember MeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABCA78C32D77613300E5F714 /* Remember MeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCA78D42D77613300E5F714 /* Build configuration list for PBXNativeTarget "Remember MeUITests" */;
+			buildPhases = (
+				ABCA78C02D77613300E5F714 /* Sources */,
+				ABCA78C12D77613300E5F714 /* Frameworks */,
+				ABCA78C22D77613300E5F714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCA78C62D77613300E5F714 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ABCA78C72D77613300E5F714 /* Remember MeUITests */,
+			);
+			name = "Remember MeUITests";
+			packageProductDependencies = (
+			);
+			productName = "Remember MeUITests";
+			productReference = ABCA78C42D77613300E5F714 /* Remember MeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCA78A12D77613200E5F714 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ABCA78A82D77613200E5F714 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ABCA78B92D77613300E5F714 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ABCA78A82D77613200E5F714;
+					};
+					ABCA78C32D77613300E5F714 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ABCA78A82D77613200E5F714;
+					};
+				};
+			};
+			buildConfigurationList = ABCA78A42D77613200E5F714 /* Build configuration list for PBXProject "Remember Me" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABCA78A02D77613200E5F714;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ABCA78AA2D77613200E5F714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCA78A82D77613200E5F714 /* Remember Me */,
+				ABCA78B92D77613300E5F714 /* Remember MeTests */,
+				ABCA78C32D77613300E5F714 /* Remember MeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCA78A72D77613200E5F714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA78B82D77613300E5F714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA78C22D77613300E5F714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCA78A52D77613200E5F714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA78B62D77613300E5F714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCA78C02D77613300E5F714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABCA78BC2D77613300E5F714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCA78A82D77613200E5F714 /* Remember Me */;
+			targetProxy = ABCA78BB2D77613300E5F714 /* PBXContainerItemProxy */;
+		};
+		ABCA78C62D77613300E5F714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCA78A82D77613200E5F714 /* Remember Me */;
+			targetProxy = ABCA78C52D77613300E5F714 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABCA78CC2D77613300E5F714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABCA78CD2D77613300E5F714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ABCA78CF2D77613300E5F714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Remember Me/Remember_Me.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remember Me/Preview Content\"";
+				DEVELOPMENT_TEAM = F834LV38QX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sullivan-Market-LLC.Remember-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABCA78D02D77613300E5F714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Remember Me/Remember_Me.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remember Me/Preview Content\"";
+				DEVELOPMENT_TEAM = F834LV38QX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sullivan-Market-LLC.Remember-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABCA78D22D77613300E5F714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F834LV38QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sullivan-Market-LLC.Remember-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remember Me.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remember Me";
+			};
+			name = Debug;
+		};
+		ABCA78D32D77613300E5F714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F834LV38QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sullivan-Market-LLC.Remember-MeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remember Me.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remember Me";
+			};
+			name = Release;
+		};
+		ABCA78D52D77613300E5F714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F834LV38QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sullivan-Market-LLC.Remember-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Remember Me";
+			};
+			name = Debug;
+		};
+		ABCA78D62D77613300E5F714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F834LV38QX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sullivan-Market-LLC.Remember-MeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Remember Me";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCA78A42D77613200E5F714 /* Build configuration list for PBXProject "Remember Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA78CC2D77613300E5F714 /* Debug */,
+				ABCA78CD2D77613300E5F714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCA78CE2D77613300E5F714 /* Build configuration list for PBXNativeTarget "Remember Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA78CF2D77613300E5F714 /* Debug */,
+				ABCA78D02D77613300E5F714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCA78D12D77613300E5F714 /* Build configuration list for PBXNativeTarget "Remember MeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA78D22D77613300E5F714 /* Debug */,
+				ABCA78D32D77613300E5F714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCA78D42D77613300E5F714 /* Build configuration list for PBXNativeTarget "Remember MeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCA78D52D77613300E5F714 /* Debug */,
+				ABCA78D62D77613300E5F714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABCA78A12D77613200E5F714 /* Project object */;
+}
