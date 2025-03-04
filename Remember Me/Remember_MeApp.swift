@@ -16,7 +16,8 @@ struct ReminderManagerApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(themeManager)
-                .environmentObject(reminderStore)
+                            .environmentObject(reminderStore)
+                            .accentColor(Color("AccentColor"))
         }
         .windowStyle(HiddenTitleBarWindowStyle())
         .commands {
@@ -35,6 +36,7 @@ struct ReminderManagerApp: App {
        // MenuBarExtra("Reminders", systemImage: "bell.fill") {
         MenuBarExtra("Reminders", image: "menu-bar-icon") {
             MenuBarView(reminderStore: reminderStore)
+                .accentColor(Color("AccentColor"))
         }
         .menuBarExtraStyle(.window)
     }
